@@ -1,0 +1,15 @@
+main section img{
+    width: 200px;
+    height: 200px;
+}
+main section p{
+    width: auto;
+}
+main section{
+display: inline-block;
+    /* border: 1px solid gray; */
+    margin: 32px;
+    width: 20%;
+    height: 357px;
+    text-align: center;
+}
