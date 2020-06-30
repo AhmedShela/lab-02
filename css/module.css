@@ -1,15 +1,38 @@
+
 main section img{
-    width: 200px;
-    height: 200px;
+    width: 290px;
+    height: 265px;
 }
 main section p{
-    width: auto;
+    width: 290px;
+    color: white;
+    line-height: 22px;
+}
+main section h2{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 164%;
+    font-weight: bold;
+    width: 290px;
+
 }
 main section{
-display: inline-block;
-    /* border: 1px solid gray; */
-    margin: 32px;
-    width: 20%;
-    height: 357px;
-    text-align: center;
+    box-shadow: 15px 15px 52px white;
+    padding: 20px;
+    background: #7b5e5e;
+    margin: 50px;
+}
+.buttons{
+    margin: 4px;
+    align-self: center;
+
+}
+.buttons button{
+    margin: 1px;
+    width: 100px;
+    padding: 11px;
+    font-size: 100%;
+    outline: none;
+    background-color: #7b5e5e;
+    color: white;
 }

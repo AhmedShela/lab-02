@@ -6,6 +6,25 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/module.css">
+    <!-- <script id="mp_template" type="text/x-tmpl-mustache">
+      <section class="photo-template"">
+
+      <h2> {{title}} </h2>
+      <img src={{{image_url}}} alt="">
+      <p>{{description}}</p>
+    </section>
+    </script> -->
+    <script id="template" type="x-tmpl-mustache">
+      <section class="photo-template"">
+
+        <h2> {{imageTitle}} </h2>
+        <img src={{{imageUrl}}} alt="">
+        <p>{{imageDesc}}</p>
+      </section>
+    </script>
+    <script id="filter-template" type="x-tmpl-mustache">
+      <option class="option" value="default">Filter by Keyword</option>
+    </script>
   </head>
   <body>
     <header>
@@ -13,16 +32,25 @@
       <select>
         <option class="option" value="default">Filter by Keyword</option>
       </select>
+      <div class="buttons">
+        <button id="page1">page1</button>
+        <button id="page2">page2</button>
+      </div>
+      <div class="buttons">
+        <button id="textSort">Text</button>
+        <button id="hornsSort">horns</button>
+      </div>
     </header>
     <main>
-      <section class="photo-template" id="photo-template">
+      <!-- <section class="photo-template">
         <h2></h2>
         <img src="" alt="">
         <p></p>
-      </section>
+      </section> -->
     </main>
     <footer>
     </footer>
+    <script src="https://unpkg.com/mustache@latest"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="js/app.js"></script>
   </body>
