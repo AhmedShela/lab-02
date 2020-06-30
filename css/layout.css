@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: #c8c8c8;
+}
+h1{
+    align-self: center;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+select{
+    align-self: center;
+    margin: 40px;
+    width: 200px;
+    height: 30px;
+    font-size: 110%;
+    color: maroon;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
